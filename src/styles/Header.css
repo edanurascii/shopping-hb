@@ -1,0 +1,63 @@
+.header-container {
+    display: flex;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid #d1cfc8;
+}
+
+.header-logo {
+    cursor: pointer;
+    background-image: url('../images/hepsiburada.png');
+    height: 42px;
+    min-width: 240px;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 50px;
+}
+
+.search-container {
+    display: block;
+    width: 70%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.search-icon {
+    background-image: url('../images/search.png');
+    background-repeat: no-repeat;
+    background-size: 24px;
+    float: left;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    margin: 13px 0px 13px 20px;
+}
+
+.search-input {
+    height: 48px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #ececec;
+    border: 1px solid #ececec;
+    border-radius: 80px;
+    color: #919191;
+    padding-left: 55px;
+    outline: none;
+}
+
+.basket {
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: #d1cfc8;
+    color: #919191;
+    width: 150px;
+    height: 48px;
+    margin-right: 50px;
+    outline: none;
+}

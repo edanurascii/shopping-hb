@@ -1,0 +1,25 @@
+.searched-item-dropdown-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.searched-item-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.search-item-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #484848;
+    text-overflow: ellipsis;
+}
+
+.search-item {
+    color: #333333;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
