@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import Header from './components/Header';
-import Products from './components/Products';
-import Pagination from './components/Pagination';
-import './App.css';
+import Header from './Header';
+import Products from './Products';
+import Pagination from './Pagination';
+import '../styles/App.css';
 
 const App = () => {
 	const [products, setProducts] = useState([]);
@@ -47,7 +47,7 @@ const App = () => {
 	} else {
 		return (
 			<>
-				<Header />
+				<Header/>
 				<Products
 					products={ currentProducts }
 					loading={ loading }
